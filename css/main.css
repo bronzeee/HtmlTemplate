@@ -1,0 +1,251 @@
+/* css replace */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 101%;
+}
+
+body {
+    font-size: 12px;
+    line-height: 1;
+    font-family: Microsoft Yahei, Simsun, Arial;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.0em;
+    color: #333;
+}
+
+/* icons */
+i.icon {
+    background: url('../images/icon.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+i.icon.arrow-up {
+    background-position: -113px 0px;
+}
+
+i.icon.arrow-down {
+    background-position: -113px -21px;
+}
+
+/* header-new with a tag */
+a.header-new {
+    background: url('../images/header-new.png') no-repeat;
+    width: 82px;
+    height: 50px;
+    display: inline-block;
+}
+
+a.header-new.retire {
+    background-position: -16px 1px;
+    border-right: 1px dotted #d4d4d4;
+}
+
+a.header-new.free {
+    background-position: -90px 1px;
+    border-right: 1px dotted #d4d4d4;
+}
+
+a.header-new.expire {
+    background-position: -164px 1px;
+}
+
+/* main.css */
+/* clear */
+html body div.clear, html body span.clear {
+    background: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+a:checked{
+    color: #666;
+}
+a:hover{
+    color: #2db8ad;
+    text-decoration: underline;
+}
+
+/* div设置块模式 */
+div.row {
+    width: 100%;
+}
+
+div.center {
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+
+div.search-box {
+    display: inline;
+    padding: 13px 0 0 70px;
+    float: left;
+    width: 450px;
+}
+
+div.city-info {
+    padding: 40px 0 0 2px;
+    float: left;
+}
+
+div.city-info h2 {
+    margin-bottom: 14px;
+}
+div.city-info .search-box-tabs {
+    display: inline-block !important;
+    display: inline;
+    zoom: 1; /* ie6 兼容*/
+}
+div.city-info .city-info-toggle{
+    margin-top: 20px;
+}
+
+div.commitment {
+    padding: 40px 0 0 2px;
+    float: right !important;
+}
+
+/* header.logo*/
+a.logo {
+    margin: 30px 0 0 20px;
+    float: left;
+}
+
+a.city-info-name {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.search-box-tab-shops {
+    display: inline-block !important;
+    display: inline;
+    zoom: 1; /* ie6 兼容*/
+    height: 24px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.search-box-tab-current {
+    background: #2db8ad;
+    color: #FFFFFF;
+}
+
+.search-box-form {
+    display: inline;
+    width: 400px;
+}
+
+.search-box-input {
+    border: 4px solid #2db8ad;
+    margin: 0;
+    width: 280px;
+    height: 24px;
+    float: left;
+    line-height: 24px;
+    padding-left: 5px;
+}
+
+.search-box-button {
+    display: inline-block !important;
+    cursor: pointer;
+    display: inline;
+    zoom: 1; /* ie6 兼容*/
+    float: left;
+    height: 34px;
+    width: 62px;
+    margin: 0;
+    line-height: 36px;
+    letter-spacing: 2px;
+    align-items: flex-start;
+    background: #2db8ad;
+    border: 0 none;
+    -webkit-transition: background .2s;
+    -moz-transition: background .2s;
+    transition: background .2s;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.search-box-button:hover {
+    background: #12a69a;
+    -webkit-transition: background .2s;
+    -moz-transition: background .2s;
+    transition: background .2s;
+}
+
+.search-box-hots{
+    padding: 5px;
+}
+.hot-link{
+    margin-right: 15px;
+    margin-left: 10px;
+}
