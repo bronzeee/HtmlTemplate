@@ -52,8 +52,120 @@
             <div class="clear"></div>
         </div>
     </div>
-    <div class="row" style="background: blue">2</div>
+    <div class="row nav"  style="margin-bottom: 300px">
+        <div class="center">
+            <span class="nav-trigger">全部分类</span>
+            <div class="nav-list">
+                <div class="nav-list-item">
+                    <div class="item-content">
+                        <i class="icon food"></i>
+                        <i class="indecation"></i>
+                        <dl>
+                            <dt><a href="#">美食</a></dt>
+                            <dd><a href="#">自助餐</a></dd>
+                            <dd><a href="#">火锅烧烤</a></dd>
+                            <dd><a href="#">烤肉</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item-menu">
+                        <a href="#">123</a>
+                    </div>
+                </div>
+                <div class="nav-list-item">
+                    <div class="item-content">
+                        <i class="icon hotel"></i>
+                        <i class="indecation"></i>
+                        <dl>
+                            <dt><a href="#">酒店</a></dt>
+                            <dd><a href="#">经济型酒店</a></dd>
+                            <dd><a href="#">主题酒店</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item-menu">123</div>
+                </div>
+                <div class="nav-list-item">
+                    <div class="item-content">
+                        <i class="icon movie"></i>
+                        <i class="indecation"></i>
+                        <dl>
+                            <dt>
+                                <a href="#">电影</a>
+                            </dt>
+                        </dl>
+                    </div>
+                    <div class="item-menu">123</div>
+                </div>
+                <div class="nav-list-item">
+                    <div class="item-content">
+                        <i class="icon cup"></i>
+                        <i class="indecation"></i>
+                        <dl>
+                            <dt><a href="#">娱乐休闲</a></dt>
+                            <dd><a href="#">温泉</a></dd>
+                            <dd><a href="#">KTV</a></dd>
+                            <dd><a href="#">足疗按摩</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item-menu">123</div>
+                </div>
+                <div class="nav-list-item">
+                    <div class="item-content">
+                        <i class="icon live"></i>
+                        <i class="indecation"></i>
+                        <dl>
+                            <dt><a href="#">生活服务</a></dt>
+                            <dd><a href="#">摄影写真</a></dd>
+                            <dd><a href="#">儿童摄影</a></dd>
+                            <dd><a href="#">汽车服务</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item-menu">123</div>
+                </div>
+            </div>
+            <ul class="navbar cf">
+                <li class="navbar-item current">
+                    <a href="#">
+                        <span class="nav-label">首页</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#">
+                        <span class="nav-label">身边团购</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#">
+                        <span class="nav-label">今日新单</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#">
+                        <span class="nav-label">购物</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#">
+                        <span class="nav-label">找商家</span>
+                        <i class="icon-new"></i>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#">
+                        <span class="nav-label">找商家</span>
+                    </a>
+                </li>
+                <li class="dropdown dropdown-history">
+                    <a rel="nofollow" class="dropdown__toggle" href="javascript:void(0)" >
+                        <span>最近浏览</span>
+                        <i class="tri tri-dropdown"></i>
+                    </a>
+                    <div id="J-my-history-menu" class="dropdown-menu dropdown-menu--deal dropdown-menu--history" data-lazyicon="dropdown-menu--loading"><p class="dropdown-menu--empty">暂无浏览记录</p></div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </header>
+balala
 <footer>
     <div class="row">
         <div class="center">1</div>
@@ -61,5 +173,17 @@
     </div>
     <div class="row">1</div>
 </footer>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script>
+    $(function(){
+        $('.nav-list-item').hover(function(){
+            $(this).find('i.indecation').show();
+            $(this).find('.item-menu').show();
+        }, function(){
+            $(this).find('i.indecation').hide();
+            $(this).find('.item-menu').hide();
+        });
+    });
+</script>
 </body>
 </html>
