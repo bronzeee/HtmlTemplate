@@ -128,6 +128,10 @@ a.header-new.expire {
 }
 
 /* main.css */
+footer{
+    border-top: 3px solid #3aa2a2;
+    margin-top: 20px;
+}
 /* clear */
 html body div.clear, html body span.clear {
     background: none;
@@ -386,6 +390,7 @@ a.city-info-name {
     border: 1px solid #12a69a;
     border-left: none;
     line-height: 12px;
+    background-color: rgb(255, 255, 255);
 }
 
 ul.navbar {
@@ -419,4 +424,44 @@ li.navbar-item a:hover {
     background-color: #009689;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+li.navbar-item-history{
+    float: right;
+    width: 85px;
+    border-left: 1px solid #179a8f;
+    border-right: 1px solid #179a8f;
+    line-height: 39px;
+}
+
+li.navbar-item-history:hover{
+    background-color: #FFFFFF;
+    color: #179a8f;
+    border-top: 1px solid #a5a5a5;
+}
+
+li.navbar-item-history a{
+    margin: 0 auto;
+    font-size: 13px;
+}
+/* content */
+.menu-right{
+    height: 310px;
+    margin-left: 220px;
+}
+
+/* footer */
+.site-item{
+ /*   display: inline-block !important;
+    display: inline;*/
+    float: left;
+    width: 19%;
+    border-left: 1px dotted #a5a5a5;
+    height: 160px;
+}
+
+.site-item.site-item-last{
+    border-right: 1px dotted #a5a5a5;
+    width: 24%;
+    *width: 23%;
 }

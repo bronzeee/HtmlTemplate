@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b558b502-0ac3-4489-87ce-9aa2792e1aa0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContextMenu.html" afterPath="$PROJECT_DIR$/ContextMenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -70,22 +68,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ContextMenu.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContextMenu.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ContextMenu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="36" selection-start="2237" selection-end="2248" vertical-scroll-proportion="-18.428572" vertical-offset="548" max-vertical-offset="3686">
+            <state line="161" column="46" selection-start="6580" selection-end="6580" vertical-scroll-proportion="0.42976356" vertical-offset="2750" max-vertical-offset="4218">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="385" column="29" selection-start="6625" selection-end="6625" vertical-scroll-proportion="0.38363892" vertical-offset="7043" max-vertical-offset="8113">
+            <state line="439" column="33" selection-start="7587" selection-end="7587" vertical-scroll-proportion="-7.84" vertical-offset="8145" max-vertical-offset="8968">
               <folding />
             </state>
           </provider>
@@ -471,12 +470,18 @@
       <updated>1387871195312</updated>
       <workItem from="1387871197875" duration="670000" />
       <workItem from="1387871886859" duration="7950000" />
-      <workItem from="1387931738078" duration="18684000" />
+      <workItem from="1387931738078" duration="19008000" />
+      <workItem from="1388109602562" duration="3915000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1387965643052</created>
+      <updated>1387965643052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27304000" />
+    <option name="totallyTimeSpent" value="31543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="878" extended-state="6" />
@@ -502,11 +507,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -521,6 +527,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -528,10 +536,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ContextMenu.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="36" selection-start="2237" selection-end="2248" vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="3686">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="385" column="29" selection-start="6625" selection-end="6625" vertical-scroll-proportion="0.0" vertical-offset="7315" max-vertical-offset="8113">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContextMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="65" selection-start="1088" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1273">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -548,7 +575,8 @@
         <state line="8" column="16" selection-start="136" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="304">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -567,27 +595,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="64239" selection-end="64239" vertical-scroll-proportion="0.12942779" vertical-offset="0" max-vertical-offset="734">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state line="5" column="29" selection-start="64239" selection-end="64239" vertical-scroll-proportion="0.12942779" vertical-offset="0" max-vertical-offset="734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="439" column="33" selection-start="7587" selection-end="7587" vertical-scroll-proportion="-7.84" vertical-offset="8145" max-vertical-offset="8968">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ContextMenu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="36" selection-start="2237" selection-end="2248" vertical-scroll-proportion="-18.428572" vertical-offset="548" max-vertical-offset="3686">
+        <state line="161" column="46" selection-start="6580" selection-end="6580" vertical-scroll-proportion="0.42976356" vertical-offset="2750" max-vertical-offset="4218">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="385" column="29" selection-start="6625" selection-end="6625" vertical-scroll-proportion="0.38363892" vertical-offset="7043" max-vertical-offset="8113">
-          <folding />
         </state>
       </provider>
     </entry>
